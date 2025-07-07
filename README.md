@@ -1,3 +1,0 @@
-Aqui está um projeto de haseamento de senhas feito com TS, pois por TS ser estático ajuda na hora de codar e evita error na hora de manipular dados como senha(que é o meu caso). Como o script será executado no terminal, usaremos Node.js, e TypeScript é bem suportado nesse ambiente com ferramentas como ts-node.
-
-Para rodar a atividade basta dar os comando `npm i` e em seguida `ts-node Haseamento.ts`, assim, basta fazer o cadastro, validar a senha hasheada no arquivo users.json e fazer o login com a senha usada no cadastro. Você deve observar que a senha real nunca passa nem pelo programador, ela já vai direto da máquina para o hasheamento, assim trazendo segurança e escalabilidade para o Software.
